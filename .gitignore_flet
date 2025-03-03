@@ -2,6 +2,12 @@
 # The idea is to merge this version with the standard github
 # Python .gitignore file to improve it.
 #
+# The .gitignore files that should be used to be analysed and
+# merged with this one:
+# 1. https://github.com/github/gitignore/blob/main/Python.gitignore
+# 2. https://github.com/ndonkoHenri/Flet-Samples/blob/master/.gitignore
+# 3. https://github.com/flet-dev/flet/blob/main/.gitignore
+# 
 # Explanation:
 # __pycache__/, *.pyc → Python cache files
 # venv/, .env/ → Virtual environment and environment files
