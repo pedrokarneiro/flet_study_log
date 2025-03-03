@@ -1,0 +1,43 @@
+# This .gitignore version was recommended for Flet Projects.
+# The idea is to merge this version with the standard github
+# Python .gitignore file to improve it.
+#
+# Explanation:
+# __pycache__/, *.pyc → Python cache files
+# venv/, .env/ → Virtual environment and environment files
+# .flet/, flet_build/ → Flet-generated build artifacts
+# .vscode/, .idea/ → IDE-specific files
+# dist/, build/ → PyInstaller build outputs
+
+# Byte-compiled / cached Python files
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environment
+venv/
+.env/
+.envrc
+
+# Logs and temp files
+*.log
+*.temp
+.DS_Store
+
+# Flet-specific
+.flet/
+flet_build/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.iml
+
+# PyInstaller (if you package your app)
+dist/
+build/
+*.spec
+
+# Python dependency files
+pip-wheel-metadata/
+*.egg-info/
